@@ -25,7 +25,7 @@ class RvProductsAdapter : RecyclerView.Adapter<RvProductsAdapter.ProductVh>() {
     inner class ProductVh(private val itemBinding: ItemRvProductBinding) : RecyclerView.ViewHolder(itemBinding.root) {
         fun onBind(product: ProductM) {
             with(itemBinding) {
-                //
+                // todo
             }
         }
     }

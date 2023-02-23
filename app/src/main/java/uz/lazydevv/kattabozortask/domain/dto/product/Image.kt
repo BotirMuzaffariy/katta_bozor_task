@@ -1,4 +1,4 @@
-package uz.lazydevv.kattabozortask.domain.dto
+package uz.lazydevv.kattabozortask.domain.dto.product
 
 data class Image(
     val height: Int,
