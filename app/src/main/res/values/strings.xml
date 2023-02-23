@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Katta bozor task</string>
+
+    <string name="emptyMsg">There are no products</string>
+    <string name="errorMsg">Something went wrong :(</string>
+
+</resources>
