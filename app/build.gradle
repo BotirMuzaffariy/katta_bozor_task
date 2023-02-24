@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId "uz.lazydevv.kattabozortask"
-        minSdk 21
+        minSdk 23
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -59,4 +59,7 @@ dependencies {
     // retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    // coil
+    implementation 'io.coil-kt:coil:2.2.2'
 }

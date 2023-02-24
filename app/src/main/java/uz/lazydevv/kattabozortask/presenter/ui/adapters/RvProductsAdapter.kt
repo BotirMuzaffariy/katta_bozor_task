@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
+import coil.load
 import uz.lazydevv.kattabozortask.data.models.ProductM
 import uz.lazydevv.kattabozortask.databinding.ItemRvProductBinding
 
@@ -25,7 +26,10 @@ class RvProductsAdapter : RecyclerView.Adapter<RvProductsAdapter.ProductVh>() {
     inner class ProductVh(private val itemBinding: ItemRvProductBinding) : RecyclerView.ViewHolder(itemBinding.root) {
         fun onBind(product: ProductM) {
             with(itemBinding) {
-                // todo
+                tvName.text = product.name
+                tvBrand.text = product.brand
+                tvMerchant.text = product.merchant
+                ivImg.load(product.imgUrl)
             }
         }
     }
